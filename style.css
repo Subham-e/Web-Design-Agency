@@ -20,7 +20,7 @@ footer {
 }
 
 .tile-image{
-  width:200px;
+  height:200px;
   margin-right:50px;
   float:left;
  }
@@ -38,4 +38,24 @@ footer {
   color: midnightblue;
 
 }
-
+@media (max-width:680px){
+  .logo{
+    width:100px;
+  }
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card{
+    width:100%;
+    display:block;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  .card img {
+    width:100%;
+    margin-bottom: 10px;
+    display: inline;
+    object-fit: cover;
+  }
+}
